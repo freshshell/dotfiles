@@ -1,0 +1,11 @@
+# handles updating fresh
+fresh freshshell/fresh bin/fresh --bin
+
+# source jasoncodes' shell config (e.g. prompt)
+fresh jasoncodes/dotfiles shell/\*
+
+# builds jasoncodes' aliases into ~/.fresh/build.sh
+fresh jasoncodes/dotfiles shell/aliases/\*
+
+# source jasoncodes' config files (e.g ~/.gitconfig)
+fresh jasoncodes/dotfiles config/\* --file
