@@ -9,3 +9,7 @@ fresh jasoncodes/dotfiles shell/aliases/\*
 
 # link jasoncodes' config files (e.g ~/.gitconfig)
 fresh jasoncodes/dotfiles config/\* --file
+
+# source ~/.fresh/build.sh when loading bash
+fresh freshshell/fresh contrib/source-build.sh --file=~/.bash_profile
+fresh freshshell/fresh contrib/source-build.sh --file=~/.bashrc
